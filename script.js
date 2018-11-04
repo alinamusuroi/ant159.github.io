@@ -11,7 +11,7 @@ function getWeather()
      $('#result1').append( "  Temperature :"+ data.main.temp +"°C");
          $('#result2').append( "  Humidity :"+ data.main.humidity+" %");
      $('#result3').append( "  Wind:"+ data.wind.speed + " meter/sec");
-     $('#result4').append("   Weather: "+data.weather[0].description);}          
+     $('#result4').append("  Weather: "+data.weather[0].description);}          
 );  
 }
 
